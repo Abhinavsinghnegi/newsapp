@@ -1,0 +1,14 @@
+.card{
+    box-shadow: 10px 10px 20px black;
+    /* filter: drop-shadow(10px 10px 20px black); */
+}
+
+.read-more{
+    text-decoration: none;
+    color: gray;
+    opacity: 0.5;
+}
+
+.image{
+    height: 250px;
+}
