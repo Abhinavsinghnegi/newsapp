@@ -41,7 +41,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Screenshot
 
---
 ![product-image](image.png)
---
+
 ![product-image](image-1.png)
