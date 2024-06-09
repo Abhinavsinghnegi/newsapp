@@ -10,6 +10,7 @@ import LoadingBar from "react-top-loading-bar";
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import News from './components/News';
+import Home from './components/Home';
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
             height={3}
           />
           <Routes>
+            <Route exact path='/' element={<Home/>}></Route>
             <Route exact path='/business' element={<News pageSize={pageSize} setProgress={setProgress} apiKey = {apiKey} key="business" country='in' category='Business' />}></Route>
             <Route exact path='/entertainment' element={<News pageSize={pageSize} setProgress={setProgress} apiKey = {apiKey} key="entertainment" country='in' category='Entertainment' />}></Route>
             <Route exact path='/general' element={<News pageSize={pageSize} setProgress={setProgress} apiKey = {apiKey} key="general" country='in' category='General' />}></Route>
