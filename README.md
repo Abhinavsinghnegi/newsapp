@@ -43,6 +43,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ![alt text](image-2.png)
 
-![product-image](image.png)
+![alt text](image-3.png)
 
-![product-image](image-1.png)
+![alt text](image-4.png)
