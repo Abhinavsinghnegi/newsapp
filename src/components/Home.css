@@ -7,7 +7,18 @@
 
 .content{
     position: absolute;
-    bottom: 300px;
+    bottom: 200px;
     right: 26px;
     left: 900px;
+    text-align: justify;
+}
+
+.head{
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 1.5cm;
+}
+
+.body{
+    font-style: oblique;
 }
